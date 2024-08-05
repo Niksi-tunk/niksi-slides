@@ -12,10 +12,8 @@
   author: [Matias Zwinger, Luukas Pörtfors],
 )
 
-#utils.register-section([Preface])
-#slide[
-  = What's the problem?
-
+#new-section-slide([Preface])
+#slide(title: "What's the problem?")[
   Early stages of programming education often suffer from time
   being wasted installing the course specific development environment on
   the students machine. *That time could be used on learning programming*.
@@ -26,9 +24,7 @@
   student feeling discouraged about programming.
 ]
 
-#slide[
-  = How does Niksi solve it
-
+#slide(title: "How does Niksi solve it?")[
   Niksi utilizes the promises given by the Nix package manager.
   It allows the teacher of a course to define the development environment
   needed for that specific course.
@@ -39,15 +35,16 @@
   #footnote[Altough it might be useful to learn the boring stuff at some point].
 ]
 
-#slide[
-  = Cross-platform??
+#new-section-slide([Technical details])
+#slide(title: "Cross-platform??")[
 ]
 
-#slide[
+#focus-slide[
   = Actual demo
 ]
 
-#slide[
-  = The PoC is cool and all but is some1 really interested
+
+#new-section-slide([What's next?])
+#slide(title: "The PoC is cool and all but is some1 really interested")[
+
 ]
->>>>>>> c32006b (feat: first two slides)
