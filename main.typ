@@ -1,15 +1,13 @@
 #import "@preview/polylux:0.3.1": *
-#import themes.simple: *
+#import themes.metropolis: *
 
 #set page(paper: "presentation-16-9")
 #set text(size: 25pt)
 
-#show: simple-theme.with(
-  footer: [Niksi],
-)
+#show: metropolis-theme.with(footer: [Niksi])
 
-#title-slide[
-  = Niksi
-  == Using Nix and NixOS for declarative programming environments in education
-  Matias Zwinger and Luukas Pörtfors
-]
+#title-slide(
+  title: "Niksi",
+  subtitle: "Using Nix for declarative programming environments in education",
+  author: [Matias Zwinger, Luukas Pörtfors],
+)
