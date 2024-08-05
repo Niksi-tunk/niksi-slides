@@ -31,10 +31,39 @@
   For the end-user (the students), Niksi acts as a simple and intuitive interface
   that allows the student to start coding immediately without having to
   pay any attention to the boring stuff
-  #footnote[Although it might be useful to learn the boring stuff at some point].
+  #footnote[Although it might be useful to learn the boring stuff at some point #v(1em)].
 ]
 
-#slide(title: "Technical details")[
+#slide(title: "Workflow")[
+  Niksi's user interface consists of a menu in VS Code which lists all the users courses.
+  Clicking on a course opens it in a new VS Code window,
+  where the user has all the necessary tools available to start working on the course.
+]
+
+#new-section-slide([Technical details])
+
+
+#slide(title: "Behind the scenes")[
+  Niksi has two components: the VS Code -plugin and the NixOS WSL distro.
+
+  The plugin spawns a new VS Code process
+  and instructs it to open the relevant directory in the NixOS WSL distro.
+  Each course contains an `extensions.json` file which specifies the VS Code plugins to install
+  and a `flake.nix` file with a Devenv #footnote[#link("https://devenv.sh") #v(1em)]
+  config specified by course staff.
+]
+
+#slide(title: "Devenv")[
+  This config is a declarative description of the working environment for the course.
+  The new VS Code window loads the config specified by the teacher of the course using the Direnv
+  #footnote[#link("https://marketplace.visualstudio.com/items?itemName=mkhl.direnv") #v(1em)]
+  plugin.
+
+  The first time a course is opened it might take some time to download all the binaries from the cache,
+  but after that enabling the environment will be almost instant.
+]
+
+#slide(title: "Cross-platform??")[
 ]
 
 #focus-slide[
