@@ -83,13 +83,12 @@
 ]
 
 #slide(title: "Cross-platform??")[
-  Niksi is cross platform and supports Windows, MacOS and Linux.
-  The Windows support is achieved through running NixOS in the WSL while MacOS and Linux can
-  run the Nix package manager natively.
+  - Niksi is cross platform and supports Windows, MacOS and Linux.
+    - Windows support is achieved through running NixOS in the WSL.
+    - MacOS and Linux can run the Nix package manager natively.
 
-  The installer has to be developed somewhat separately for each platform but it will be based
-  on nix-installer by Determinate Systems
-  #footnote[#link("https://github.com/DeterminateSystems/nix-installer") #v(1em)].
+  - The installer has to be developed somewhat separately for each platform.
+    - It will be based on nix-installer by Determinate Systems #footnote[#link("https://github.com/DeterminateSystems/nix-installer") #v(1em)].
 ]
 
 #focus-slide[
@@ -126,6 +125,6 @@
 ]
 
 #focus-slide[
-  = Questions?
   = Thank you for your attention!
+  = Questions?
 ]
