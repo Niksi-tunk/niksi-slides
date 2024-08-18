@@ -10,7 +10,7 @@
   title: "Niksi",
   subtitle: "Using Nix for declarative programming environments in education",
   author: [Matias Zwinger, Luukas Pörtfors],
-  extra: image("niksi.png")
+  extra: image("niksi.png"),
 )
 
 #slide(title: "What's the problem?")[
@@ -60,8 +60,7 @@
 #slide(title: "Behind the scenes")[
   - Niksi has two components:
     - The VS Code -plugin
-    - The NixOS WSL distro.
-
+    - The NixOS WSL distro
   - The plugin spawns a new VS Code process and instructs it to open the relevant directory in the NixOS WSL distro.
   - Each course contains:
     - An `extensions.json` file which specifies the VS Code plugins to install.
@@ -106,22 +105,24 @@
 ]
 
 #slide(title: "What's next, continued")[
-  We'll start working part-time on Niksi in September
-  for Aalto University and the plan is to provide it as an optional alternative
-  for the Programming 2 course (\~750 students) in the spring 2025.
+  - We'll start working part-time on Niksi in September for Aalto University
+    - The project will be licensed under a free (as in freedom) license.
 
-  Our main focus points for that project is stability of core
-  features and good documentation as we won't be able to maintain it
-  forever. The project will be licensed under a free license.
+  - Pilot testing at the Programming 2 course (\~750 students) in spring 2025.
+    - An optional way to install the environment.
+
+  - Our main focus points for Niksi:
+    + Stability of core features
+    + Good documentation
+      - We won't be able to maintain it forever.
 ]
 
 #slide(title: "Other potential uses for Niksi")[
-  Uses for Niksi are definitely not limited to education.
-  We think Niksi (or a similar solution) could be of high usefulness
-  in any environment where rapid context switching is required
-  (e.g. Software Consulting).
+  - Uses for Niksi are definitely not limited to education.
+  - We think Niksi (or a similar solution) could be of high usefulness in any environment where rapid context switching is required.
+    - e.g. Software Consulting
 
-  Niksi and Nix is also not limited to only serving software development.
+  - Niksi and Nix is also not limited to only serving software development.
 ]
 
 #focus-slide[
