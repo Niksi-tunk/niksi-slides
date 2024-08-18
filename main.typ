@@ -46,7 +46,7 @@
   - Allows the teacher to define a development environment.
   - The students:
     - Get a simple and intuitive interface.
-    - They an start coding immediately.
+    - Can start coding immediately.
     - No need to learn any of the boring stuff. #footnote[Although it might be useful to learn the boring stuff at some point #v(1em)]]
 
 #slide(title: "Workflow")[
