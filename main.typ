@@ -106,10 +106,9 @@
 ]
 
 #slide(title: "What's next, continued")[
-  // TODO: confirm this
   We'll start working part-time on Niksi in September
-  for Aalto University and the first pilot will be conducted
-  on the Programming 2 course in the spring 2025.
+  for Aalto University and the plan is to provide it as an optional alternative
+  for the Programming 2 course (\~750 students) in the spring 2025.
 
   Our main focus points for that project is stability of core
   features and good documentation as we won't be able to maintain it
