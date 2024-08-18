@@ -10,6 +10,7 @@
   title: "Niksi",
   subtitle: "Using Nix for declarative programming environments in education",
   author: [Matias Zwinger, Luukas Pörtfors],
+  extra: image("niksi.png")
 )
 
 #slide(title: "What's the problem?")[
