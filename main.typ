@@ -9,9 +9,24 @@
 #title-slide(
   title: "Niksi",
   subtitle: "Using Nix for declarative programming environments in education",
-  author: [Matias Zwinger, Luukas Pörtfors],
+  author: [Matias Zwinger and Luukas Pörtfors],
   extra: image("niksi.png"),
 )
+
+#slide(title: "Who are we?")[
+  #align(top)[
+    #side-by-side[
+      === Matias Zwinger <#link("mailto:mkez@iki.fi")>
+      #lorem(35)
+    ][
+      === Luukas Pörtfors <#link("mailto:lajp@iki.fi")>
+      - CS and Math student at Aalto University and the University of Helsinki
+      - Open-Source developer
+      - Rust enjoyer #emoji.rocket#emoji.crab
+      - Haskell lover #emoji.face.hearts
+    ]
+  ]
+]
 
 #slide(title: "What's the problem?")[
   // Early stages of programming education often suffer from time
