@@ -16,8 +16,11 @@
 #slide(title: "Who are we?")[
   #align(top)[
     #side-by-side[
-      === Matias Zwinger <#link("mailto:mkez@iki.fi")>
-      #lorem(35)
+      === Matias Zwinger <#link("mailto:matias.zwinger@protonmail.com")>
+      - Third year CS student at Aalto
+      - Currently working in HPC
+      - I also teach programming #emoji.school (with Niklas)
+      - Dreaming of a declarative world #emoji.snowflake
     ][
       === Luukas Pörtfors <#link("mailto:lajp@iki.fi")>
       - CS and Math student at Aalto University and the University of Helsinki
